@@ -13,4 +13,4 @@ jobs:
       clipboard: '["win"]'
       nav: '["invertedt"]'
       alphas: '["qwerty"]'
-      kconfig: '["CONFIG_BT_CTLR_TX_PWR_PLUS_8=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=1\nCONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=7\nCONFIG_ZMK_KEYBOARD_NAME=\"FabW Corne Kb\""]'
+      kconfig: '["CONFIG_BT_CTLR_TX_PWR_PLUS_8=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=1\nCONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=7\nCONFIG_ZMK_KEYBOARD_NAME=\"FabW Corne Kb\"\nCONFIG_ZMK_MOUSE=y"]'
