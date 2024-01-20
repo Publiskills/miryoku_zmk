@@ -52,3 +52,6 @@ MIRYOKU_LAYER_LIST
 #else
   #include "miryoku_behaviors.dtsi"
 #endif
+
+#include "miryoku_shifted_chars.dtsi"
+
