@@ -1,4 +1,10 @@
 #define SHIFTED_CHAR(name,l1,u1) MIRYOKU_SHIFT_FUNCTION(name, &kp l1, &kp u1)
 
-SHIFTED_CHAR(FR_LBKT_S,FR_LBKT,FR_LBRC)   // [ => {
-SHIFTED_CHAR(FR_RBKT_S,FR_RBKT,FR_RBRC)   // [ => }
+SHIFTED_CHAR(FR_LBKT_S,FR_LBKT,FR_LBRC)         // [ => {
+SHIFTED_CHAR(FR_RBKT_S,FR_RBKT,FR_RBRC)         // [ => }
+
+SHIFTED_CHAR(FR_SQT_S,FR_SQT,FR_DQT)            // ' => "
+SHIFTED_CHAR(FR_SEMI_S,FR_SEMI,FR_COLON)        // ; => :
+SHIFTED_CHAR(FR_COMMA_S,FR_COMMA,FR_LT)         // , => <
+SHIFTED_CHAR(FR_DOT_S,FR_DOT,FR_GT)             // . => >
+SHIFTED_CHAR(FR_SLASH_S,FR_SLASH,FR_QMARK)      // / => ?
