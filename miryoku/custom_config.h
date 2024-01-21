@@ -7,7 +7,7 @@
 //#define HRML(k1,k2,k3,k4) U_MT(LGUI, k1),U_MT(LALT, k2),U_MT(LCTRL, k3),U_MT(LSHFT, k4)
 //#define HRMR(k1,k2,k3,k4) U_MT(LSHFT, k1),U_MT(LCTRL, k2),U_MT(LALT, k3),U_MT(LGUI, k4)
 #define HRML(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &kp k4
-#define HRMR(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &kp k4
+#define HRMR(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, k4
 
 #define U_FR_UND &kp LC(FR_Z)
 
@@ -18,21 +18,21 @@
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
 &kp TAB    K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp DEL \
-&kp LSHFT  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp FR_SQT_S \
+&kp LSHFT  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &FR_SQT_S \
 &kp LCTRL  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RET \
                      K32  K33  K34       K35  K36  K37
 
 
 #define MIRYOKU_LAYER_BASE \
-&kp FR_Q,               &kp FR_W,          &kp FR_E,            &kp FR_R,           &kp FR_T,          &kp FR_Y,          &kp FR_U,          &kp FR_I,          &kp FR_O,              &kp FR_P,                \
-HRML(FR_A,              FR_S,              FR_D,                FR_F),              &kp FR_G,          &kp FR_H,          HRMR(FR_J,         FR_K,              FR_L,                  &FR_SEMI_S),      \
-U_LT(U_BUTTON, FR_Z),   U_MT(RALT, FR_X),  &kp FR_C,            &kp FR_V,           &kp FR_B,          &kp FR_N,          &kp FR_M,          &kp FR_COMMA_S,    U_MT(RALT, FR_DOT_S),  U_LT(U_BUTTON, FR_SLASH_S),\
-U_NP,                   U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE), U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,                  U_NP
+&kp FR_Q,               &kp FR_W,          &kp FR_E,            &kp FR_R,           &kp FR_T,          &kp FR_Y,          &kp FR_U,          &kp FR_I,          &kp FR_O,                     &kp FR_P,                \
+HRML(FR_A,              FR_S,              FR_D,                FR_F),              &kp FR_G,          &kp FR_H,          HRMR(FR_J,         FR_K,              FR_L,                         &FR_SEMI_S),             \
+U_LT(U_BUTTON, FR_Z),   U_MT(RALT, FR_X),  &kp FR_C,            &kp FR_V,           &kp FR_B,          &kp FR_N,          &kp FR_M,          &FR_COMMA_S,       U_MT_BIND(RALT, FR_DOT_S),    U_LT_BIND(U_BUTTON, FR_SLASH_S),\
+U_NP,                   U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE), U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,                         U_NP
 
 #define MIRYOKU_LAYER_TAP \
 &kp FR_Q,          &kp FR_W,          &kp FR_E,          &kp FR_R,          &kp FR_T,          &kp FR_Y,          &kp FR_U,          &kp FR_I,          &kp FR_O,          &kp FR_P,             \
-&kp FR_A,          &kp FR_S,          &kp FR_D,          &kp FR_F,          &kp FR_G,          &kp FR_H,          &kp FR_J,          &kp FR_K,          &kp FR_L,          &kp FR_SEMI,           \
-&kp FR_Z,          &kp FR_X,          &kp FR_C,          &kp FR_V,          &kp FR_B,          &kp FR_N,          &kp FR_M,          &kp FR_COMMA,      &kp FR_DOT,        &kp FR_SLASH,         \
+&kp FR_A,          &kp FR_S,          &kp FR_D,          &kp FR_F,          &kp FR_G,          &kp FR_H,          &kp FR_J,          &kp FR_K,          &kp FR_L,          &FR_SEMI_S,        \
+&kp FR_Z,          &kp FR_X,          &kp FR_C,          &kp FR_V,          &kp FR_B,          &kp FR_N,          &kp FR_M,          &FR_COMMA_S,       &FR_DOT_S,         &FR_SLASH_S,          \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA MIRYOKU_LAYER_BASE
