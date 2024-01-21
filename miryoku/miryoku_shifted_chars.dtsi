@@ -26,7 +26,7 @@ SHIFTED_CHAR(FR_SQT,FR_DQT)             // ' => "
 SHIFTED_CHAR(FR_SEMI,FR_COLON)          // ; => :
 SHIFTED_CHAR(FR_COMMA,FR_LT)            // , => <
 SHIFTED_CHAR(FR_DOT,FR_GT)              // . => >
-SHIFTED_CHAR(FR_SLASH,FR_QMARK)         // / => S
+SHIFTED_CHAR(FR_SLASH,FR_QMARK)         // / => ?
 
 U_LT_WITH_BINDING(FR_SLASH_S)
 U_MT_WITH_BINDING(FR_DOT_S)
