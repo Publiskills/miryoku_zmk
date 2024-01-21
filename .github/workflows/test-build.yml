@@ -2,10 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Test Build'
-on:
-  push:
-  pull_request:
-  workflow_dispatch:
+on: workflow_dispatch
 jobs:
   build:
     if: github.repository_owner == 'manna-harbour'

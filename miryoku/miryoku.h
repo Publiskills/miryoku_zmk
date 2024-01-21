@@ -43,3 +43,5 @@
 #else
   #include "miryoku_behaviors.h"
 #endif
+
+#include "miryoku_shifted_chars.h"
