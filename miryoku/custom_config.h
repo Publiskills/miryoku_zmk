@@ -4,10 +4,10 @@
 #include "locales/keys_fr.h"
 
 
-//#define HRML(k1,k2,k3,k4) U_MT(LGUI, k1),U_MT(LALT, k2),U_MT(LCTRL, k3),U_MT(LSHFT, k4)
-//#define HRMR(k1,k2,k3,k4) U_MT(LSHFT, k1),U_MT(LCTRL, k2),U_MT(LALT, k3),U_MT_BIND(LGUI, k4)
-#define HRML(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &kp k4
-#define HRMR(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &k4
+#define HRML(k1,k2,k3,k4) U_MT(LGUI, k1),U_MT(LALT, k2),U_MT(LCTRL, k3),U_MT(LSHFT, k4)
+#define HRMR(k1,k2,k3,k4) U_MT(LSHFT, k1),U_MT(LCTRL, k2),U_MT(LALT, k3),U_MT_BIND(LGUI, k4)
+//#define HRML(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &kp k4
+//#define HRMR(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &k4
 
 #define U_FR_UND &kp LC(FR_Z)
 
