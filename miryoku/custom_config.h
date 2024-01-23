@@ -3,6 +3,8 @@
 
 #include "locales/keys_fr.h"
 
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
+#define MIRYOKU_KLUDGE_DOUBLETAPBOOT
 //#define HRM_ENABLED
 
 #if defined (HRM_ENABLED)
