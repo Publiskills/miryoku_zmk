@@ -116,7 +116,7 @@ Full
 [{r:-25,rx:9,y:-1.6,x:-0.7,a:7,h:1.5},""],
 [{r:-12.5,rx:10.7,ry:4.75,y:-0.8,x:-1.4,g:true},""]
 
-[{w:15,h:0.5,d:true},"<b>Num Layer</b>"],
+[{w:15,h:0.5,d:true},"<b>Function Layer</b>"],
 [{y:-0.3,x:3,a:7},"F8",{x:7,c:"#a6a6a6",a:5},"\n<i class='mss mss-Unicode-Page-Down-5'></i>\n\n\n\n\nExtra"],
 [{y:-0.9,x:2,c:"#cccccc",a:7},"F7",{x:1},"F9",{x:5,c:"#a6a6a6",a:5},"\n<i class='mss mss-Unicode-Page-Down-5'></i>\n\n\n\n\nBase",{x:1},"\n<i class='mss mss-Unicode-Page-Down-5'></i>\n\n\n\n\nTap"],
 [{y:-0.9,x:5,c:"#cccccc",a:7},"Print Screen",{x:3,c:"#a6a6a6"},""],
