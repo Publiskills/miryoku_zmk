@@ -17,6 +17,18 @@
   }; \
 };
 
+/ {
+  behaviors {
+    adv_paste: adv_paste {
+      compatible = "zmk,behavior-mod-morph";
+      label = "adv_paste";
+      #binding-cells = <0>;
+      bindings = <&kp LC(FR_V)>, <&kp LG(FR_V)>;
+      mods = <(MOD_LGUI|MOD_RGUI)>;
+    };
+  };
+};
+
 #define U_LT_WITH_BINDING(BINDING) U_LT_BEHAVIOUR_WITH_BINDING(u_lt_##BINDING, &##BINDING)
 #define U_MT_WITH_BINDING(BINDING) U_MT_BEHAVIOUR_WITH_BINDING(u_mt_##BINDING, &##BINDING)
 
@@ -27,6 +39,19 @@ SHIFTED_CHAR(FR_SEMI,FR_COLON)          // ; => :
 SHIFTED_CHAR(FR_COMMA,FR_LT)            // , => <
 SHIFTED_CHAR(FR_DOT,FR_GT)              // . => >
 SHIFTED_CHAR(FR_SLASH,FR_QMARK)         // / => ?
+SHIFTED_CHAR(FR_N0,FR_RPAR)             // 0 => )
+SHIFTED_CHAR(FR_N1,FR_EXCL)             // 1 => !
+SHIFTED_CHAR(FR_N2,FR_AT)               // 2 => @
+SHIFTED_CHAR(FR_N3,FR_HASH)             // 3 => #
+SHIFTED_CHAR(FR_N4,FR_DLLR)             // 4 => $
+SHIFTED_CHAR(FR_N5,FR_PRCNT)            // 5 => %
+SHIFTED_CHAR(FR_N6,FR_CARET)            // 6 => ^
+SHIFTED_CHAR(FR_N7,FR_AMPS)             // 7 => &
+SHIFTED_CHAR(FR_N8,FR_STAR)             // 8 => *
+SHIFTED_CHAR(FR_N9,FR_LPAR)             // 9 => (
+SHIFTED_CHAR(FR_BSLH,FR_PIPE)           // \ => |
+SHIFTED_CHAR(FR_MINUS,FR_UNDER)         // - => _
+SHIFTED_CHAR(FR_GRAVE,FR_TILDE)         // ` => ~
 
 U_LT_WITH_BINDING(FR_SLASH_S)
 U_MT_WITH_BINDING(FR_DOT_S)
