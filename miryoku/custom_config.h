@@ -7,7 +7,7 @@
 #define MIRYOKU_KLUDGE_DOUBLETAPBOOT
 #define HOST_OS 2
 
-//#define HRM_ENABLED
+#define HRM_ENABLED
 
 #if defined (HRM_ENABLED)
      #define HRML(k1,k2,k3,k4) U_MT(LGUI, k1),U_MT(LALT, k2),U_MT(LCTRL, k3),U_MT(LSHFT, k4)
