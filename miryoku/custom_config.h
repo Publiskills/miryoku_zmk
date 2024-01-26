@@ -5,6 +5,8 @@
 
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 #define MIRYOKU_KLUDGE_DOUBLETAPBOOT
+#define HOST_OS 2
+
 //#define HRM_ENABLED
 
 #if defined (HRM_ENABLED)
@@ -24,7 +26,7 @@
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
 &kp TAB    K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC \
-&kp LSHFT  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &FR_SQT_S \
+&kp LSHFT  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  U_LT_BIND(U_ACC, FR_SQT_S)\
 &kp LCTRL  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RET \
                      K32  K33  K34       K35  K36  K37
 
@@ -84,3 +86,9 @@ U_NP,           U_NP,           &FR_DOT_S,      &FR_N0_S,       &FR_MINUS_S,    
 &kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
+#define MIRYOKU_LAYER_ACC \
+U_NU,              U_NU,              &td_e,             U_NU,              U_NU,              U_NU,              &UGr,              &td_i,             &OCirc,            U_NU,              \
+&td_a,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+U_NU,              U_NU,              &CCed,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP

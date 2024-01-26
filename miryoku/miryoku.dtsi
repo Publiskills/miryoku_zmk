@@ -55,3 +55,5 @@ MIRYOKU_LAYER_LIST
 
 #include "miryoku_shifted_chars.dtsi"
 
+#include "miryoku_tap_dance.dtsi"
+
