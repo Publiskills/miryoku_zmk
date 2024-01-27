@@ -29,6 +29,19 @@
   };
 };
 
+#define COMBO(NAME, LAYERS, BINDINGS, KEYPOS) \
+/ { \
+  combos { \
+    compatible = "zmk,combos"; \
+    combo_##NAME { \
+      timeout-ms = <50>; \
+      bindings = <BINDINGS>; \
+      key-positions = <KEYPOS>; \
+      layers = <LAYERS>; \
+    }; \
+  }; \
+};
+
 #define U_LT_WITH_BINDING(BINDING) U_LT_BEHAVIOUR_WITH_BINDING(u_lt_##BINDING, &##BINDING)
 #define U_MT_WITH_BINDING(BINDING) U_MT_BEHAVIOUR_WITH_BINDING(u_mt_##BINDING, &##BINDING)
 
@@ -57,3 +70,10 @@ U_LT_WITH_BINDING(FR_SLASH_S)
 U_LT_WITH_BINDING(FR_SQT_S)
 U_MT_WITH_BINDING(FR_DOT_S)
 U_MT_WITH_BINDING(FR_SEMI_S)
+
+
+// 0   1   2   3   4   5     6   7   8   9   10  11
+// 12  13  14  15  16  17    18  19  20  21  22  23
+// 24  25  26  27  28  29    30  31  32  33  34  35
+//             36  37  38    39  40  41
+COMBO(WIN_LOCK, U_BASE, &kp LG(FR_L), 36 41)
