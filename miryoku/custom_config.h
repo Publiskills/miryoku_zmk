@@ -43,8 +43,6 @@ U_NP,                   U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPAC
 &kp FR_Z,          &kp FR_X,          &kp FR_C,          &kp FR_V,          &kp FR_B,          &kp FR_N,          &kp FR_M,          &FR_COMMA_S,       &FR_DOT_S,         &FR_SLASH_S,          \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
-#define MIRYOKU_LAYER_EXTRA MIRYOKU_LAYER_BASE
-
 #define MIRYOKU_LAYER_BUTTON \
 U_FR_UND,          U_CUT,             U_CPY,             &adv_paste,        U_RDO,          U_RDO,          &adv_paste,        U_CPY,             U_CUT,             U_FR_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NU,           U_NU,           &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
@@ -91,4 +89,10 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp 
 U_NU,              U_NU,              &td_e,             U_NU,              U_NU,              U_NU,              &UGr,              &td_i,             &OCirc,            U_NU,              \
 &td_a,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 U_NU,              U_NU,              &CCed,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
+#define MIRYOKU_LAYER_EXTRA \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
