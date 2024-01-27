@@ -53,6 +53,8 @@ MIRYOKU_LAYER_LIST
   #include "miryoku_behaviors.dtsi"
 #endif
 
+#include "miryoku_extra.dtsi"
+
 #include "miryoku_shifted_chars.dtsi"
 
 #include "miryoku_tap_dance.dtsi"

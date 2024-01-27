@@ -44,6 +44,8 @@
   #include "miryoku_behaviors.h"
 #endif
 
+#include "miryoku_extra.h"
+
 #include "miryoku_shifted_chars.h"
 
 #include "miryoku_tap_dance.h"
