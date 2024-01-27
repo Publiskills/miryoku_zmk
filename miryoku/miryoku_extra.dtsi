@@ -1,0 +1,25 @@
+
+
+/ {
+    macros {
+        rid_rename: rid_rename {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp R &kp R>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
+        
+        rid_impl: rid_impl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp F12>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
+    };
+};
