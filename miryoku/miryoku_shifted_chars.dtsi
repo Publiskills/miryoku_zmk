@@ -76,4 +76,4 @@ U_MT_WITH_BINDING(FR_SEMI_S)
 // 12  13  14  15  16  17    18  19  20  21  22  23
 // 24  25  26  27  28  29    30  31  32  33  34  35
 //             36  37  38    39  40  41
-COMBO(WIN_LOCK, U_BASE, &kp LG(FR_L), 36 41)
+COMBO(EXIT_TAP, U_TAP, &to U_BASE, 36 41)
