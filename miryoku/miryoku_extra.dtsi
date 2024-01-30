@@ -11,7 +11,7 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };
-        
+
         rid_impl: rid_impl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -19,6 +19,20 @@
                 = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp F12>
                 , <&macro_release &kp LCTRL>
+                ;
+        };
+        
+        x_extra: x_extra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp FR_E>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp FR_X>
+                , <&macro_tap &kp FR_T>
+                , <&macro_tap &kp FR_R>
+                , <&macro_tap &kp FR_A>
                 ;
         };
     };

@@ -94,5 +94,5 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp 
 #define MIRYOKU_LAYER_EXTRA \
 &rid_rename,       &rid_impl,         U_NU,              U_NU,              &kp PSCRN,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 U_NU,              U_NU,              U_NU,              U_NU,              &kp SLCK,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-U_NU,              U_NU,              U_NU,              U_NU,              &kp PAUSE_BREAK,   U_NA,              &u_to_U_EXTRA,     &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
+&x_extra,          U_NU,              U_NU,              U_NU,              &kp PAUSE_BREAK,   U_NA,              &u_to_U_EXTRA,     &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
