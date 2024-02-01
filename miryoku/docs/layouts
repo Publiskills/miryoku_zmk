@@ -1,6 +1,6 @@
 http://www.keyboard-layout-editor.com
 
-[{f:4,w:15,h:0.5,d:true},"<b>FabienW's layout</b>"],
+[{f:4,w:15,h:0.5,d:true},"<b>Full layout</b>"],
 [{y:-0.3,x:3,c:"#888888",t:"#000000\n#ff0000\n#00ff00\n#0000ff\n#ffffff",f:3},"E\nF8\n*\n8\nExtra",{x:7,t:"#000000\n#ff00ff\n#ffff00\n#00ffff\n#ffffff",fa:[0,4,2,5]},"I\n<i class='kb kb-Multimedia-Volume-Up-2'></i>\n<i class='fa fa-mouse-pointer'></i><i class='fa fa-arrow-up'></i>\n<i class='kb kb-Multimedia-Up'></i>\nExtra"],
 [{y:-0.9,x:2,t:"#000000\n#ff0000\n#00ff00\n#0000ff\n#ffffff",f:3},"W\nF7\n&\n7\nTap",{x:1,f:3},"R\nF9\n(\n9\nBase",{x:5,t:"#000000\n\n#ffff00\n#00ffff\n#ffffff",fa:[0,4,2,2]},"U\n\n<i class='fa fa-arrows-h'></i> <i class='fa fa-angle-double-left'></i>\nHome\nBase",{x:1},"O\n\n<i class='fa fa-arrows-h'></i> <i class='fa fa-angle-double-right'></i>\nEnd\nTap"],
 [{y:-0.9,x:5,t:"#000000\n#ff0000\n#00ff00\n#0000ff",f2:2},"T\nPrint Screen\n}\n]",{x:3,t:"#000000\n\n\n#00ffff"},"Y\n\n\nInsert"],
@@ -171,3 +171,21 @@ http://www.keyboard-layout-editor.com
 [{r:-25,rx:9,y:-1.6,x:-0.7,h:1.5},"Right"],
 [{r:-12.5,rx:10.7,ry:4.75,y:-0.8,x:-1.4},"Left"]
 
+[{f:4,w:15,h:0.5,d:true},"<b>Accents Layer</b>"],
+[{y:-0.3,x:3,f:3,a:7},"E",{x:7},"I"],
+[{y:-0.9,x:2},"W",{x:1},"R",{x:5},"U",{x:1},"O"],
+[{y:-0.9,x:5},"T",{x:3},"Y"],
+[{y:-0.7,f:7},"<i class='kb kb-Line-Start-End'></i>",{f:3},"Q",{x:11},"P",{f:7},"<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>"],
+[{y:-0.5,x:3,f:3},"D\n\n\n\nCtrl",{x:7},"K\n\n\n\nCtrl"],
+[{y:-0.9,x:2},"S\n\n\n\nAlt",{x:1,n:true},"F\n\n\n\nShift",{x:5,n:true},"J\n\n\n\nShift",{x:1},"L\n\n\n\nAlt"],
+[{y:-0.9,x:5},"G",{x:3},"H"],
+[{y:-0.7,f:7},"<i class='fa fa-angle-up'></i>",{f:3},"A\n\n\n\nWin",{x:11,a:5,fa:[2]},":\n\n\n\nWin\n\n;","\"\n\n\n\n\n\n'"],
+[{y:-0.5,x:3,a:7,f:3},"C",{x:7,a:5,f:3},"<\n\n\n\n\n\n,"],
+[{y:-0.9,x:2,a:7,f:3},"X",{x:1,f:3},"V",{x:5,f:3},"M",{x:1,a:5,f:3},">\n\n\n\n\n\n."],
+[{y:-0.9,x:5,a:7,f:3},"B",{x:3,f:3},"N"],
+[{y:-0.7,f:3},"Ctrl",{f:3},"Z\n\n\n\nButton",{x:11,a:5,f:3},"?\n\n\n\nButton\n\n/",{a:7,f:7},"<i class='kb kb-Return-4'></i>"],
+[{y:-0.2,x:3.5,f:3},"Esc\n\n\n\nMedia",{x:6,f:7},"<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\n\n\nFun"],
+[{r:12.5,rx:4.5,ry:4.75,y:-0.75,x:0.2,f:3},"Spc\n\n\n\nNav"],
+[{r:25,rx:6,ry:5.5,y:-1.6,x:-0.3,f:7,h:1.5},"<i class='kb kb-Line-Start-End'></i>\n\n\n\nMouse"],
+[{r:-25,rx:9,y:-1.6,x:-0.7,h:1.5},"<i class='kb kb-Return-4'></i>\n\n\n\nSym"],
+[{r:-12.5,rx:10.7,ry:4.75,y:-0.8,x:-1.4},"<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\n\n\nNum"]
