@@ -14,6 +14,18 @@
   }; \
 };
 
+/ {
+  behaviors {
+    dt_molock: dt_molock {
+      compatible = "zmk,behavior-tap-dance";
+      label = "dt_molock";
+      #binding-cells = <0>;
+      tapping-term-ms = <U_TAPPING_TERM>;
+      bindings = <&none>, <&molock 0>;
+    };
+  };
+};
+
 #define MIRYOKU_X(LAYER, STRING) \
 MIRYOKU_DOUBLE_TAP_GUARD(u_to_U_##LAYER, &to U_##LAYER)
 MIRYOKU_LAYER_LIST
