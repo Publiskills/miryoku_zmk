@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "keys_fr.h": "c"
+        "*.h": "c",
+        "*.dtsi": "c"
     }
 }

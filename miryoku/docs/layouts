@@ -91,9 +91,9 @@ http://www.keyboard-layout-editor.com
 [{y:-0.7,c:"#a6a6a6",f:3},"Ctrl","",{x:11,c:"#cccccc",f:3},"Undo",{c:"#a6a6a6",f:7},"<i class='kb kb-Return-4'></i>"],
 [{y:-0.2,x:3.5,c:"#cccccc",f:3},"",{x:6},"Middle"],
 [{r:12.5,rx:4.5,ry:4.75,y:-0.75,x:0.2},""],
-[{r:25,rx:6,ry:5.5,y:-1.6,x:-0.3,g:true,h:1.5},""],
+[{r:25,rx:6,ry:5.5,y:-1.6,x:-0.3,h:1.5},""],
 [{r:-25,rx:9,y:-1.6,x:-0.7,g:false,h:1.5},"Right"],
-[{r:-12.5,rx:10.7,ry:4.75,y:-0.8,x:-1.4},"Left"]
+[{r:-12.5,rx:10.7,ry:4.75,y:-0.8,x:-1.4},"Left"] 
 
 [{f:4,w:15,h:0.5,d:true},"<b>Symbol Layer</b>"],
 [{y:-0.3,x:3,a:7,f:3},"*",{x:7,c:"#a6a6a6",a:5},"\n<i class='mss mss-Unicode-Page-Down-5'></i>\n\n\n\n\nExtra"],
