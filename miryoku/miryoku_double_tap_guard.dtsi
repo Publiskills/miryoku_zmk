@@ -26,6 +26,18 @@
   };
 };
 
+/ {
+  behaviors {
+    tt_btclearall: tt_btclearall {
+      compatible = "zmk,behavior-tap-dance";
+      label = "tt_btclearall";
+      #binding-cells = <0>;
+      tapping-term-ms = <U_TAPPING_TERM>;
+      bindings = <&none>, <&none>, <&bt BT_CLR_ALL>;
+    };
+  };
+};
+
 #define MIRYOKU_X(LAYER, STRING) \
 MIRYOKU_DOUBLE_TAP_GUARD(u_to_U_##LAYER, &to U_##LAYER)
 MIRYOKU_LAYER_LIST
