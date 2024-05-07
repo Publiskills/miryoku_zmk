@@ -22,6 +22,14 @@
             #binding-cells = <0>;
             tapping-term-ms = <180>;
             bindings = <&ICirc>, <&ITrem>;
+        };  
+
+        td_u: td_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <180>;
+            bindings = <&UGr>, <&UCirc>;
         };
     };
 };
@@ -36,4 +44,5 @@ ZMK_UNICODE_PAIR_4_4(ICirc,     KP_N0, KP_N2, KP_N3, KP_N8,     KP_N0, KP_N2, KP
 ZMK_UNICODE_PAIR_4_4(ITrem,     KP_N0, KP_N2, KP_N3, KP_N9,     KP_N0, KP_N2, KP_N0, KP_N7) // ï/Ï
 ZMK_UNICODE_PAIR_4_4(OCirc,     KP_N0, KP_N2, KP_N4, KP_N4,     KP_N0, KP_N2, KP_N1, KP_N2) // ô/Ô
 ZMK_UNICODE_PAIR_3_4(UGr,		KP_N1, KP_N5, KP_N1,		    KP_N0, KP_N2, KP_N1, KP_N7)	// ù/Ù
+ZMK_UNICODE_PAIR_3_4(UCirc,		KP_N1, KP_N5, KP_N0,		    KP_N0, KP_N2, KP_N1, KP_N9)	// ù/Ù
 ZMK_UNICODE_PAIR_3_3(CCed,		KP_N1, KP_N3, KP_N5,		    KP_N1, KP_N2, KP_N8)	    // ç/Ç

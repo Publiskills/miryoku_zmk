@@ -93,7 +93,7 @@ U_NA,              U_NA,              U_NA,              &dt_molock,        U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_LAYER_ACC \
-U_NU,              U_NU,              &td_e,             U_NU,              U_NU,              U_NU,              &UGr,              &td_i,             &OCirc,            U_NU,              \
+U_NU,              U_NU,              &td_e,             U_NU,              U_NU,              U_NU,              &td_u,              &td_i,             &OCirc,            U_NU,              \
 &td_a,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 U_NU,              U_NU,              &CCed,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
