@@ -49,3 +49,5 @@
 #include "miryoku_shifted_chars.h"
 
 #include "miryoku_tap_dance.h"
+
+#include "miryoku_combos.h"

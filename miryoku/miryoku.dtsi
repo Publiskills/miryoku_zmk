@@ -59,3 +59,5 @@ MIRYOKU_LAYER_LIST
 
 #include "miryoku_tap_dance.dtsi"
 
+#include "miryoku_combos.dtsi"
+
