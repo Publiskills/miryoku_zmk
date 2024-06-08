@@ -66,3 +66,5 @@ MIRYOKU_LAYER_LIST
 
 #include "miryoku_combos.dtsi"
 
+#include "behaviours_homerow_mods.dtsi"
+
