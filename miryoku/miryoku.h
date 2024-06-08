@@ -50,3 +50,5 @@
 #include "miryoku_tap_dance.h"
 
 #include "miryoku_combos.h"
+
+#include "behaviours_homerow_mods.h"
