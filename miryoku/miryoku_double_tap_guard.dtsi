@@ -15,18 +15,6 @@
 
 / {
   behaviors {
-    dt_molock: dt_molock {
-      compatible = "zmk,behavior-tap-dance";
-      label = "dt_molock";
-      #binding-cells = <0>;
-      tapping-term-ms = <U_TAPPING_TERM>;
-      bindings = <&none>, <&molock 0>;
-    };
-  };
-};
-
-/ {
-  behaviors {
     tt_btclearall: tt_btclearall {
       compatible = "zmk,behavior-tap-dance";
       label = "tt_btclearall";
