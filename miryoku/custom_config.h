@@ -10,8 +10,8 @@
 #define HRM_ENABLED
 
 #if defined (HRM_ENABLED)
-     #define HRML(k1,k2,k3,k4) U_MT(LGUI, k1),U_MT(LALT, k2),U_MT(LCTRL, k3),U_MT(LSHFT, k4)
-     #define HRMR(k1,k2,k3,k4) U_MT(LSHFT, k1),U_MT(LCTRL, k2),U_MT(LALT, k3),U_MT_BIND(LGUI, k4)
+     #define HRML(k1,k2,k3,k4) &hm_l LGUI k1, &hm_l LALT k2, &hm_l LCTRL k3, &hm_shift_l LSHFT k4   
+     #define HRMR(k1,k2,k3,k4) &hm_shift_r LSHFT k1, &hm_r LCTRL k2, &hm_r LALT k3, &hm_r LGUI k4
 #else
      #define HRML(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &kp k4
      #define HRMR(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &k4
