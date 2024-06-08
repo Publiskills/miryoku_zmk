@@ -11,7 +11,7 @@
 
 #if defined (HRM_ENABLED)
      #define HRML(k1,k2,k3,k4) &hm_l LGUI k1, &hm_l LALT k2, &hm_l LCTRL k3, &hm_shift_l LSHFT k4   
-     #define HRMR(k1,k2,k3,k4) &hm_shift_r LSHFT k1, &hm_r LCTRL k2, &hm_r LALT k3, &hm_r LGUI k4
+     #define HRMR(k1,k2,k3,k4) &hm_shift_r LSHFT k1, &hm_r LCTRL k2, &hm_r LALT k3, U_HMR_BIND(LGUI, k4)
 #else
      #define HRML(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &kp k4
      #define HRMR(k1,k2,k3,k4) &kp k1, &kp k2, &kp k3, &k4
@@ -33,7 +33,7 @@
 
 #define MIRYOKU_LAYER_BASE \
 &kp FR_Q,               &kp FR_W,                 &kp FR_E,            &kp FR_R,           &kp FR_T,          &kp FR_Y,          &kp FR_U,          &kp FR_I,         &kp FR_O,    &kp FR_P,                \
-HRML(FR_A,              FR_S,                     FR_D,                FR_F),              &kp FR_G,          &kp FR_H,          HRMR(FR_J,         FR_K,             FR_L,        FR_L),             \
+HRML(FR_A,              FR_S,                     FR_D,                FR_F),              &kp FR_G,          &kp FR_H,          HRMR(FR_J,         FR_K,             FR_L,        FR_SEMI_S),             \
 U_LT(U_BUTTON, FR_Z),   U_LT(U_MOUSE, FR_X),      &kp FR_C,            &kp FR_V,           &kp FR_B,          &kp FR_N,          &kp FR_M,          &FR_COMMA_S,      &FR_DOT_S,   U_LT_BIND(U_BUTTON, FR_SLASH_S),\
 U_NP,                   U_NP,                     U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE), U_LT(U_EXTRA, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL), U_NP,        U_NP
 
