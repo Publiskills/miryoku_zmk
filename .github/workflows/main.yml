@@ -272,14 +272,9 @@ jobs:
           echo "::group::modules"
           for module in $modules 
           do
-            echo "interpreting module $module"
             user=`echo "$module" | cut -f 1 -d '/'`
             repo=`echo "$module" | cut -f 2 -d '/'`
             branch=`echo "$module" | cut -f 3- -d '/'`
-            echo "user is $user"
-            echo "repo is $repo"
-            echo "branch is $branch"
-            echo "so https://github.com/$user/$repo.git"
             module_dir="${GITHUB_WORKSPACE}/modules/$user-$repo-"`echo "$branch" | tr '/' '_'`
             if [ ! -d "$module_dir" ]
             then
