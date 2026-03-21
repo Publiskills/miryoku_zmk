@@ -1,4 +1,0 @@
-outboard_repository=Publiskills/zmk-new_corne
-outboard_ref=main
-outboard_from=boards/arm/eyelash_corne
-outboard_to=boards/shields/eyelash_corne
