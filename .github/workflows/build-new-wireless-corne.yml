@@ -9,7 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano@2.0.0//zmk"]'
-      shield: '["corne_left","corne_right"]'
+      shield: '["eyelash_corne_left","eyelash_corne_right"]'
       clipboard: '["win"]'
       nav: '["invertedt"]'
       alphas: '["qwerty"]'
