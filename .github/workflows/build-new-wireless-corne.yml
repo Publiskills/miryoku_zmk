@@ -9,7 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["eyelash_corne_left", "eyelash_corne_right"]'
-      shield: '["nice_oled"]'
+      shield: '["nice_custom"]'
       modules: '["Publiskills/zmk-new_corne/main mctechnology17/zmk-nice-oled/main"]'
       nav: '["invertedt"]'
       alphas: '["qwerty"]'
