@@ -1,7 +1,7 @@
 # Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-outboard_repository=Publiskills/zmk-board-eyelash
+outboard_repository=publiskills/zmk-board-eyelash
 outboard_ref=main
 outboard_from=boards/arm/eyelash_nano
 outboard_to=boards/arm/eyelash_nano
