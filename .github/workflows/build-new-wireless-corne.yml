@@ -10,7 +10,7 @@ jobs:
     with:
       board: '["eyelash_nano"]'
       shield: '["eyelash_corne_right nice_oled", "eyelash_corne_left nice_oled"]'
-      modules: '["Publiskills/zmk-corne-oled/main"]'
+      modules: '["Publiskills/zmk-corne-oled/main mctechnology17/zmk-nice-oled/main"]'
       nav: '["invertedt"]'
       alphas: '["qwerty"]'
       branches: '["zmkfirmware/zmk/v0.3-branch"]'
