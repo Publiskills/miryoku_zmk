@@ -17,3 +17,4 @@ jobs:
         branches: '["zmkfirmware/zmk/v0.3-branch"]'
       - board: '["eyelash_nano"]'
         shield: '["settings_reset"]'
+        branches: '["zmkfirmware/zmk/v0.3-branch"]'
