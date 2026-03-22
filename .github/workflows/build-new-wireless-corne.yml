@@ -8,7 +8,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["eyelash_corne_left"]'
+      board: '["eyelash_corne_left", "eyelash_corne_right"]'
       shield: '["nice_view"]'
       modules: '["Publiskills/zmk-new_corne/main"]'
       nav: '["invertedt"]'
