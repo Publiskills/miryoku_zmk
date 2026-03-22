@@ -3,5 +3,5 @@
 
 outboard_repository=Publiskills/zmk-corne-oled
 outboard_ref=main
-outboard_from=boards/arm/eyelash_corne
+outboard_from=boards/shields/eyelash_corne
 outboard_to=boards/shields/eyelash_corne
