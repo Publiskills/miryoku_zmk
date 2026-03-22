@@ -2,7 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'My New Wireless Corne'
-on: push
+on: push workflow_dispatch
 jobs:
   build:
     uses: ./.github/workflows/main.yml
@@ -10,6 +10,7 @@ jobs:
     with:
       board: '["eyelash_nano"]'
       shield: '["eyelash_corne_left nice_oled", "eyelash_corne_right nice_oled"]'
+      clipboard: '["win"]'
       modules: '["Publiskills/zmk-corne-oled/main mctechnology17/zmk-nice-oled/main"]'
       nav: '["invertedt"]'
       alphas: '["qwerty"]'
