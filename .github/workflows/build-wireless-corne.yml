@@ -3,7 +3,7 @@
 # dummy
 
 name: 'My Wireless Corne'
-on: push
+on: workflow_dispatch
 jobs:
   build:
     uses: ./.github/workflows/main.yml
