@@ -26,9 +26,9 @@
      K20, K21, K22, K23, K24,                                                          K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,                                                          K35, K36, K37, N38, N39 \
 ) \
-&kp TAB    K00  K01  K02  K03  K04                               &kp FR_U              K05  K06  K07  K08  K09  &kp BSPC \
-&kp LSHFT  K10  K11  K12  K13  K14                     &kp FR_L  &kp FR_C  &kp FR_R    K15  K16  K17  K18  K19  U_LT_BIND(U_ACC, FR_SQT_S)\
-&kp LCTRL  K20  K21  K22  K23  K24    &kp FR_Z                   &kp FR_D              K25  K26  K27  K28  K29  &kp RET \
+&bootloader    K00  K01  K02  K03  K04                               &kp FR_U              K05  K06  K07  K08  K09  &bootloader \
+&kp LSHFT  K10  K11  K12  K13  K14                     &kp FR_L  &bt BT_CLR_ALL  &kp FR_R    K15  K16  K17  K18  K19  U_LT_BIND(U_ACC, FR_SQT_S)\
+&kp LCTRL  K20  K21  K22  K23  K24    &bt BT_CLR_ALL                   &kp FR_D              K25  K26  K27  K28  K29  &kp RET \
                      K32  K33  K34                                                     K35  K36  K37
 
 
@@ -41,7 +41,7 @@ U_NP,                   U_NP,                     U_LT(U_MEDIA, ESC),  U_LT(U_NA
 #define MIRYOKU_LAYER_MEDIA \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_NU,              U_NU,              &kp C_VOL_UP,      U_NU,              U_NU,         \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              &kp C_PREV,        &kp C_VOL_DN,      &kp C_NEXT,        U_NU,         \
-&tt_btclearall,    &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,              &tt_btclearall,    &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
+U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA,              &tt_btclearall,    &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NAV \
