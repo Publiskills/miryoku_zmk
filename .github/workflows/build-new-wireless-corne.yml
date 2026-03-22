@@ -13,5 +13,4 @@ jobs:
       modules: '["Publiskills/zmk-corne-oled/main mctechnology17/zmk-nice-oled/main"]'
       nav: '["invertedt"]'
       alphas: '["qwerty"]'
-      kconfig: '["CONFIG_ZMK_KEYBOARD_NAME=\\\"FabW Corne V2\\\""]'  
       branches: '["zmkfirmware/zmk/v0.3-branch"]'
