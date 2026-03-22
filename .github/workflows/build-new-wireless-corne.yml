@@ -8,8 +8,8 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["eyelash_corne_right", "eyelash_corne_left"]'
-      shield: '["nice_oled"]'
+      board: '["eyelash_nano"]'
+      shield: '["eyelash_corne_right nice_oled", "eyelash_corne_left nice_oled"]'
       modules: '["Publiskills/zmk-corne-oled/main mctechnology17/zmk-nice-oled/main"]'
       nav: '["invertedt"]'
       alphas: '["qwerty"]'
