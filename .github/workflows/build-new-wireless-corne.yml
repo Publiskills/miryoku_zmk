@@ -11,7 +11,7 @@ jobs:
       board: '["eyelash_nano"]'
       shield: '["eyelash_corne_left nice_oled", "eyelash_corne_right nice_oled", "settings_reset"]'
       clipboard: '["win"]'
-      modules: '["publiskills/zmk-corne-oled/main mctechnology17/zmk-nice-oled/main"]'
+      modules: '["publiskills/zmk-corne-oled/main publiskills/zmk-nice-oled/main"]'
       nav: '["invertedt"]'
       alphas: '["qwerty"]'
       branches: '["zmkfirmware/zmk/v0.3-branch"]'
