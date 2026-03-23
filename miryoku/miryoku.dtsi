@@ -13,6 +13,7 @@
 
 #include <dt-bindings/zmk/pointing.h>
 
+#if defined (EYELASH_CORNE)
 / {
   keymap {
     compatible = "zmk,keymap";
@@ -20,12 +21,27 @@
     LAYER { \
       display-name = STRING; \
       bindings = < U_MACRO_VA_ARGS(MIRYOKU_LAYERMAPPING_##LAYER, MIRYOKU_LAYER_##LAYER) >; \
-      sensor-bindings = < MIRYOKU_SENSOR_BINDING_LAYER_##LAYER >; \
+        sensor-bindings = < MIRYOKU_SENSOR_BINDING_LAYER_##LAYER >; \
     };
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
   };
 };
+#else
+/ {
+  keymap {
+    compatible = "zmk,keymap";
+#define MIRYOKU_X(LAYER, STRING) \
+    LAYER { \
+      display-name = STRING; \
+      bindings = < U_MACRO_VA_ARGS(MIRYOKU_LAYERMAPPING_##LAYER, MIRYOKU_LAYER_##LAYER) >; \
+    };
+MIRYOKU_LAYER_LIST
+#undef MIRYOKU_X
+  };
+};
+
+#endif
 
 #include "miryoku_shift_functions.dtsi"
 
@@ -57,7 +73,11 @@ MIRYOKU_LAYER_LIST
 
 #include "miryoku_tap_dance.dtsi"
 
-#include "miryoku_combos.dtsi"
+#if defined (EYELASH_CORNE)
+  #include "miryoku_combos_eyelash.dtsi"
+#else
+  #include "miryoku_combos.dtsi"
+#endif
 
 #include "behaviours_homerow_mods.dtsi"
 

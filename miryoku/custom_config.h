@@ -20,6 +20,9 @@
 
 #define U_FR_UND &kp LC(FR_Z)
 
+
+#if defined (EYELASH_CORNE)
+
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,                                                          K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,                                                          K15, K16, K17, K18, K19, \
@@ -30,6 +33,23 @@
 &kp LSHFT  K10  K11  K12  K13  K14                     &kp LEFT  &kp RET  &kp RIGHT    K15  K16  K17  K18  K19  U_LT_BIND(U_ACC, FR_SQT_S)\
 &kp LCTRL  K20  K21  K22  K23  K24    &kp C_MUTE                 &kp DOWN              K25  K26  K27  K28  K29  &kp RET \
                      K32  K33  K34                                                     K35  K36  K37
+
+#else
+
+#define MIRYOKU_LAYOUTMAPPING_CORNE( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+&kp TAB    K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC \
+&kp LSHFT  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  U_LT_BIND(U_ACC, FR_SQT_S)\
+&kp LCTRL  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RET \
+                     K32  K33  K34       K35  K36  K37
+
+#endif
+
+
 
 
 #define MIRYOKU_LAYER_BASE \
@@ -100,8 +120,9 @@ U_NU,              U_NU,              &CCed,             U_NU,              U_NU
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 
-#define MIRYOKU_DEFAULT_SENSOR_BINDING &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
+#if defined (EYELASH_CORNE)
 
+#define MIRYOKU_DEFAULT_SENSOR_BINDING &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
 
 #define MIRYOKU_SENSOR_BINDING_LAYER_BASE MIRYOKU_DEFAULT_SENSOR_BINDING
 #define MIRYOKU_SENSOR_BINDING_LAYER_EXTRA MIRYOKU_DEFAULT_SENSOR_BINDING
@@ -114,3 +135,5 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp 
 #define MIRYOKU_SENSOR_BINDING_LAYER_SYM MIRYOKU_DEFAULT_SENSOR_BINDING
 #define MIRYOKU_SENSOR_BINDING_LAYER_FUN MIRYOKU_DEFAULT_SENSOR_BINDING
 #define MIRYOKU_SENSOR_BINDING_LAYER_ACC MIRYOKU_DEFAULT_SENSOR_BINDING
+
+#endif
