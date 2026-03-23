@@ -98,3 +98,18 @@ U_NU,              U_NU,              &td_e,             U_NU,              U_NU
 &td_a,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 U_NU,              U_NU,              &CCed,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
+
+#define MIRYOKU_DEFAULT_SENSOR_BINDING &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
+
+#define MIRYOKU_LAYER_BASE_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_MEDIA_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_NAV_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_EXTRA_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_SYM_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_NUM_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_FUN_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_TAP_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_BUTTON_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_MOUSE_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING
+#define MIRYOKU_LAYER_ACC_SENSOR_BINDING MIRYOKU_DEFAULT_SENSOR_BINDING

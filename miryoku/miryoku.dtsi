@@ -20,6 +20,7 @@
     LAYER { \
       display-name = STRING; \
       bindings = < U_MACRO_VA_ARGS(MIRYOKU_LAYERMAPPING_##LAYER, MIRYOKU_LAYER_##LAYER) >; \
+      sensor-bindings = < MIRYOKU_LAYER_##LAYER_SENSOR_BINDING >; \
     };
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
