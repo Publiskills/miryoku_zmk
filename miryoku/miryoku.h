@@ -20,9 +20,11 @@
 };
 
 #if defined (EYELASH_CORNE)
+/ {
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
     };
+};
 #endif
 
 #define U_NP &none // key is not present
