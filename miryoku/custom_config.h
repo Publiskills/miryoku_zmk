@@ -71,8 +71,8 @@ U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &rgb_ug RGB_BRI,   &rgb_ug RGB_SPI,   &rgb_ug RGB_EFF,   U_NU,            &rid_rename,     \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &rgb_ug RGB_BRD,   &rgb_ug RGB_SPI,   &rgb_ug RGB_EFR,   U_NU,            &rid_impl,            \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &rgb_ug RGB_BRI,   &rgb_ug RGB_SPI,   &rgb_ug RGB_EFF,   &kp C_BRI_INC,   &rid_rename,     \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &rgb_ug RGB_BRD,   &rgb_ug RGB_SPI,   &rgb_ug RGB_EFR,   &kp C_BRI_DEC,   &rid_impl,            \
 U_NA,              U_NA,              &u_to_U_SYM,       &u_to_U_EXTRA,     U_NA,              &rgb_ug RGB_TOG,   U_NU,              U_NU,              U_NU,            &x_extra,        \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NU,              U_NU,              U_NU,              U_NP,            U_NP
 
